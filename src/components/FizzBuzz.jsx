@@ -80,7 +80,7 @@ const FizzBuzz = () => {
                         <p>El contenido de este proyecto lo puedes encontrar en GitHub:</p>
                         <div className='row'>
                             <div className='col-6'>
-                                <h3>Back End <a href='#' title='Back End FizzBuzz'><i className="fa-brands fa-github"></i></a></h3>
+                                <h3>Back End <a rel="noreferrer" href="https://github.com/dchacon130/ChallengesJunior" target="_blank" title="Back End FizzBuzz"><i className="fa-brands fa-github"></i></a></h3>
                                 <ul>
                                     <li>Python</li>
                                     <li>FastAPI</li>
@@ -89,7 +89,7 @@ const FizzBuzz = () => {
                                 </ul>
                             </div>
                             <div className='col-6'>
-                                <h3>Front End <a href='#' title='Front End FizzBuzz'><i className="fa-brands fa-github"></i></a></h3>
+                                <h3>Front End <a rel="noreferrer" href="https://github.com/dchacon130/vite-project" target="_blank" title="Front End FizzBuzz" ><i className="fa-brands fa-github"></i></a></h3>
                                 <ul>
                                     <li>React</li>
                                     <li>Bootstrap</li>
