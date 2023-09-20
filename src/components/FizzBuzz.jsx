@@ -11,7 +11,7 @@ const FizzBuzz = () => {
     React.useEffect(() => {
         const fetchData = async () => {
             try {
-                const response = await axios.get('http://127.0.0.1:8000/fizzbuzz');
+                const response = await axios.get('https://challengesjunior.onrender.com/fizzbuzz');
                 setData(response.data);
             } catch (error) {
                 console.error('Error al cargar los datos:', error);
@@ -25,7 +25,7 @@ const FizzBuzz = () => {
             if (inputRangeA === inputRangeB) {
                 show_alert('Los numeros no deben ser iguales...', 'warning');
             } else {
-                const url = `http://127.0.0.1:8000/fizzbuzz/${inputRangeA}/${inputRangeB}`;
+                const url = `https://challengesjunior.onrender.com/fizzbuzz/${inputRangeA}/${inputRangeB}`;
                 const response = await axios.get(url);
                 setData(response.data);
             }
@@ -42,7 +42,7 @@ const FizzBuzz = () => {
             if (inputNumber.trim() === '') {
                 show_alert('Completa el campo numero', 'warning');
             } else {
-                const url = `http://127.0.0.1:8000/fizzbuzz/${inputNumber}`;
+                const url = `https://challengesjunior.onrender.com/fizzbuzz/${inputNumber}`;
                 const response = await axios.get(url);
                 setResult(response.data);
             }
