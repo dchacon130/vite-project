@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "start": "serve dist -s -n -L -p $PORT",
     "test": "react-scripts test",
-    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0"
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^6.4.2",
